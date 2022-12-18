@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     
     'knox',
     'rest_framework',
+    'django_filters',
     'Myapp',
 ]
 

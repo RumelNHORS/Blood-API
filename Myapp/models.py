@@ -8,7 +8,7 @@ class User(models.Model):
     user_name = models.CharField(max_length=20)
     password = models.CharField(max_length=20)
     email = models.CharField(max_length=30)
-    phone = models.IntegerField(max_length=20)
+    phone = models.IntegerField()
     blood_group = models.CharField(max_length=10)
     address = models.TextField(max_length=300)
     
